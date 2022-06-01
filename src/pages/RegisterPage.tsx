@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import '../../App.css'
+// import '../../App.css'
 
 export default function SignUpPage() {
 
@@ -62,15 +62,15 @@ export default function SignUpPage() {
                     </p>    
                     <p>
                         <label>Seu melhor email:</label><br/>
-                        <input type="email" name="email" requiredc />
+                        <input type="email" name="email" required />
                     </p>
                     <p>
                         <label>Defina uma senha:</label><br/>
-                        <input type="password" name="password" requiredc />
+                        <input type="password" name="password" required />
                     </p>
                     <p>
                         <label>Confirme a senha:</label><br/>
-                        <input type="password" name="confirm_password" requiredc />
+                        <input type="password" name="confirm_password" required />
                     </p>             
                 </div>
                 <p>
